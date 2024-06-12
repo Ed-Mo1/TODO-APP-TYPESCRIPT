@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: all 0.5s !important;
+}
+
+@layer components {
+  .check-btn {
+    @apply w-6 flex-shrink-0 aspect-square rounded-full border border-light-theme-light-grayish-blue;
+  }
+}
