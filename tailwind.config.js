@@ -33,10 +33,10 @@ export default {
       backgroundImage: {
         "check-background":
           "linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%))",
-        "desktop-dark": "url('./src/assets/images/bg-desktop-dark.jpg')",
-        "desktop-light": "url('./src/assets/images/bg-desktop-light.jpg')",
-        "mobile-light": "url('./src/assets/images/bg-mobile-light.jpg')",
-        "mobile-dark": "url('./src/assets/images/bg-mobile-dark.jpg')",
+        "desktop-dark": "url('./images/bg-desktop-dark.jpg')",
+        "desktop-light": "url('./images/bg-desktop-light.jpg')",
+        "mobile-light": "url('./images/bg-mobile-light.jpg')",
+        "mobile-dark": "url('./images/bg-mobile-dark.jpg')",
       },
     },
     plugins: [],
