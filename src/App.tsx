@@ -2,13 +2,14 @@ import AddTask from "./components/AddTask";
 import Header from "./components/Header";
 import {useState } from "react";
 import Task from "./components/Task";
+import BgImg from "./components/BgImg";
 import TasksController from "./components/TasksController";
 import type { Task as TaskType } from "./context/Tasks";
 const App = (): React.JSX.Element => {
   const [tasks, setTasks] = useState<TaskType[]>([]);
   return (
     <div className="relative">
-      <div className="max-sm:h-[200px] h-[267.75px] transition-all duration-700 absolute top-0 left-0 w-full z-[-1] bg-center max-sm:bg-mobile-light  max-sm:dark:bg-mobile-dark dark:bg-desktop-dark bg-desktop-light  bg-no-repeat bg-cover" />
+      <BgImg/>
       <div className="mx-auto w-[95%] max-w-[600px] pt-20">
         <div>
           <Header />
